@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+header {
+  background-color: #df2a02;
+}
+h1 a {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: .6em;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+}
