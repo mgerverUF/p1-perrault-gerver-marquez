@@ -8,15 +8,35 @@
   font-family: 'Cabin', sans-serif;
   border: none;
 }
+.btn-secondary {
+  background-color: #df2a02;
+  color: #ffffff;
+  font-family: 'Cabin', sans-serif;
+  border: none;
+}
 h1 {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
+  font-size: 2em;
   text-shadow: 0 0 3px #000000;
 }
 button {
   background-color: #fcd12a;
   color: #000000;
+  font-family: 'Cabin', sans-serif;
+  border: none;
+}
+section article h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #528020;
+  font-size: 1.35em;
+}
+section article p {
+  font-family: 'Cabin', sans-serif;
+}
+section button {
+  background-color: #df2a02;
+  color: #ffffff;
   font-family: 'Cabin', sans-serif;
   border: none;
 }

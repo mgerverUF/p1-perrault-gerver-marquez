@@ -8,3 +8,9 @@
   font-family: 'Cabin', sans-serif;
   border: none;
 }
+.btn-secondary {
+  background-color: #df2a02;
+  color: #ffffff;
+  font-family: 'Cabin', sans-serif;
+  border: none;
+}
