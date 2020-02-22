@@ -50,3 +50,11 @@ section form h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.35em;
 }
+footer {
+  background-color: #c21807;
+  color: #ffffff;
+}
+footer p {
+  font-family: 'Cabin', sans-serif;
+  font-size: .8em;
+}
