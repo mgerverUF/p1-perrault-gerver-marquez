@@ -7,6 +7,7 @@
   color: #000000;
   font-family: 'Cabin', sans-serif;
   border: none;
+  border-radius: 0em;
 }
 .btn-secondary {
   background-color: #df2a02;
@@ -25,6 +26,7 @@ button {
   color: #000000;
   font-family: 'Cabin', sans-serif;
   border: none;
+  border-radius: 0em;
 }
 section article h2 {
   font-family: 'Montserrat', sans-serif;
@@ -39,4 +41,12 @@ section button {
   color: #ffffff;
   font-family: 'Cabin', sans-serif;
   border: none;
+}
+section form {
+  background-color: #528020;
+  color: #ffffff;
+}
+section form h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.35em;
 }

@@ -7,6 +7,7 @@
   color: #000000;
   font-family: 'Cabin', sans-serif;
   border: none;
+  border-radius: 0em;
 }
 .btn-secondary {
   background-color: #df2a02;
