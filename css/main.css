@@ -95,25 +95,43 @@ footer p a {
 
 /**Accordion menu**/
 
+.accordion {
+  padding: 1.12rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
 .active, .accordion:hover {
   background-color: #ccc;
 }
 
 .panel {
-    padding: 0 18px;
+    padding: 0 5%;
     background-color: white;
-    display: none;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }
 
   .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+    font-size: 0.8rem;
     color: #777;
     float: right;
-    margin-left: 5px;
+    margin-left: 0.278rem;
   }
   
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  h2 {
+    padding: 2% 0%;
+  }
+
+  .faq {
+    padding-bottom: 2%;
   }
