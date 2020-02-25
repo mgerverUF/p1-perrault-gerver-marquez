@@ -28,10 +28,7 @@ button {
   border: none;
   border-radius: 0em;
 }
-section {
-  /**images on menu page**/
-  /**end of images on menu**/
-}
+
 section .row {
   display: table;
 }
