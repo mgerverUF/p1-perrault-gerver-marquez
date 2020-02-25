@@ -88,6 +88,7 @@ footer {
 footer p {
   font-family: 'Cabin', sans-serif;
   font-size: .8em;
+  margin: 20px;
 }
 footer p a {
   color: #ffffff;
