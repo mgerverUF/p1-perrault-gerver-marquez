@@ -103,3 +103,14 @@ footer p {
 footer p a {
   color: #ffffff;
 }
+@media (min-width: 540px) {
+  section article h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #528020;
+    font-size: 1.65em;
+  }
+  h1 {
+    font-size: 2.7em;
+    text-shadow: 0 0 3px #000000;
+  }
+}
