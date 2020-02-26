@@ -37,15 +37,15 @@ section .row {
 }
 section .column-side {
   float: left;
-  padding: 4%;
   width: 22%;
+  padding: 4%;
 }
 section .column-side img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
   border-style: solid;
-  border-width: .5em;
+  border-width: .15em;
   border-color: #528020;
 }
 section .column-middle {
