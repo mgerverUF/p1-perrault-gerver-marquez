@@ -9,7 +9,7 @@
   border-radius: 0em;
 }
 .btn-primary a {
-  color: #df2a02;
+  color: #000000;
 }
 .btn-primary a:hover {
   color: #df2a02;
@@ -23,7 +23,7 @@
   color: #ffffff;
 }
 .btn-secondary a:hover {
-  color: #ffffff;
+  color: #fcd12a;
 }
 h1 {
   color: #ffffff;
@@ -55,7 +55,7 @@ button {
   border-radius: 0em;
 }
 button a {
-  color: #df2a02;
+  color: #000000;
 }
 button a:hover {
   color: #df2a02;
@@ -94,6 +94,11 @@ section form {
   background-color: #528020;
   color: #ffffff;
 }
+section form h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1.35em;
+}
 section article button {
   background-color: #df2a02;
   font-family: 'Cabin', sans-serif;
@@ -103,7 +108,7 @@ section article button a {
   color: #ffffff;
 }
 section article button a:hover {
-  color: #ffffff;
+  color: #fcd12a;
 }
 section .carousel-inner {
   background-color: #fcd12a;
@@ -112,6 +117,9 @@ section .carousel-inner {
 section .carousel-inner p {
   color: #c21807;
   font-weight: bold;
+}
+.carousel-section {
+  background-color: #fcd12a;
 }
 footer {
   background-color: #c21807;
@@ -124,9 +132,8 @@ footer p {
 footer p a {
   color: #ffffff;
 }
-footer .d-block img {
-  max-width: 35%;
-  height: auto;
+footer .facebook-logo {
+  width: 50%;
 }
 /**media query for wider screens**/
 @media (min-width: 540px) {
@@ -144,5 +151,13 @@ footer .d-block img {
     height: auto;
     align-items: center;
     padding-left: 0%;
+  }
+  section footer a .facebook-logo {
+    width: 10%;
+  }
+}
+@media (min-width: 780px) {
+  h1 {
+    font-size: 2.5em;
   }
 }

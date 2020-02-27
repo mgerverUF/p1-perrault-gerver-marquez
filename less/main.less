@@ -68,6 +68,12 @@ section {
     form {
         background-color: @green;
         color: @white;
+
+        h2 {
+            font-family: @montserrat;
+            color: @white;
+            font-size: 1.35em;
+        }
       }
 
     article {
@@ -90,6 +96,10 @@ section {
 
 }
 
+.carousel-section {
+    background-color: @yellow;
+}
+
 footer {
     background-color: @darkRed;
     color: @white;
@@ -103,9 +113,8 @@ footer {
         }
     }
 
-    .d-block img {
-        max-width: 35%;
-        height: auto;
+    .facebook-logo {
+        width: 50%;
     }
 }
 
@@ -131,6 +140,19 @@ footer {
             align-items: center;
             padding-left: 0%;
         }
+
+    footer {
+        a {
+        .facebook-logo {
+            width: 10%;
+            }
+        }
+      }
     }
 }
 
+@media (min-width: 780px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}

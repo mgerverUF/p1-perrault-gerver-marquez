@@ -9,7 +9,7 @@
   border-radius: 0em;
 }
 .btn-primary a {
-  color: #df2a02;
+  color: #000000;
 }
 .btn-primary a:hover {
   color: #df2a02;
@@ -23,5 +23,5 @@
   color: #ffffff;
 }
 .btn-secondary a:hover {
-  color: #ffffff;
+  color: #fcd12a;
 }
