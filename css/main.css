@@ -104,6 +104,10 @@ footer p {
 footer p a {
   color: #ffffff;
 }
+footer .d-block img {
+  max-width: 35%;
+  height: auto;
+}
 /**media query for wider screens**/
 @media (min-width: 540px) {
   article h2 {
