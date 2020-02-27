@@ -21,6 +21,23 @@ h1 {
   font-size: 2em;
   text-shadow: 0 0 3px #000000;
 }
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #528020;
+  font-size: 1.35em;
+}
+h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #528020;
+  font-size: 1.75em;
+}
+p {
+  font-family: 'Cabin', sans-serif;
+}
 button {
   background-color: #fcd12a;
   color: #000000;
@@ -28,9 +45,14 @@ button {
   border: none;
   border-radius: 0em;
 }
+button {
+  background-color: #df2a02;
+  color: #ffffff;
+  font-family: 'Cabin', sans-serif;
+  border: none;
+}
 section {
   /**images on menu page**/
-  /**end of images on menu**/
 }
 section .row {
   display: table;
@@ -53,36 +75,15 @@ section .column-middle {
   width: 75%;
 }
 section .column-middle img {
-  max-width: 50%;
+  max-width: 65%;
   height: auto;
   align-items: center;
+  padding-left: 25%;
 }
-section article h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #528020;
-  font-size: 1.35em;
-}
-section article h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: #528020;
-  font-size: 1.75em;
-}
-section article p {
-  font-family: 'Cabin', sans-serif;
-}
-section button {
-  background-color: #df2a02;
-  color: #ffffff;
-  font-family: 'Cabin', sans-serif;
-  border: none;
-}
+/**end of images on menu**/
 section form {
   background-color: #528020;
   color: #ffffff;
-}
-section form h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.35em;
 }
 section .carousel-inner {
   background-color: #fcd12a;
@@ -103,14 +104,15 @@ footer p {
 footer p a {
   color: #ffffff;
 }
+/**media query for wider screens**/
 @media (min-width: 540px) {
-  section article h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #528020;
+  article h2 {
     font-size: 1.65em;
   }
-  h1 {
+  article h1 {
     font-size: 2.7em;
-    text-shadow: 0 0 3px #000000;
+  }
+  article h3 {
+    font-size: 1.25em;
   }
 }
