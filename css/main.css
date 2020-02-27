@@ -72,13 +72,13 @@ section .column-side img {
 }
 section .column-middle {
   margin: 5%;
+  padding-left: 10%;
   width: 75%;
 }
 section .column-middle img {
-  max-width: 65%;
+  max-width: 100%;
   height: auto;
-  align-items: center;
-  padding-left: 25%;
+  padding-left: 10%;
 }
 /**end of images on menu**/
 section form {
@@ -114,5 +114,11 @@ footer p a {
   }
   article h3 {
     font-size: 1.25em;
+  }
+  section .column-middle img {
+    max-width: 65%;
+    height: auto;
+    align-items: center;
+    padding-left: 0%;
   }
 }
