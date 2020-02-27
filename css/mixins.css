@@ -4,14 +4,24 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 .btn-primary {
   background-color: #fcd12a;
-  color: #000000;
   font-family: 'Cabin', sans-serif;
   border: none;
   border-radius: 0em;
 }
+.btn-primary a {
+  color: #df2a02;
+}
+.btn-primary a:hover {
+  color: #df2a02;
+}
 .btn-secondary {
   background-color: #df2a02;
-  color: #ffffff;
   font-family: 'Cabin', sans-serif;
   border: none;
+}
+.btn-secondary a {
+  color: #ffffff;
+}
+.btn-secondary a:hover {
+  color: #ffffff;
 }

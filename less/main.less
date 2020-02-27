@@ -16,7 +16,7 @@ h2 {
 
 h3 {
     font-family: @lobster;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -31,10 +31,6 @@ p {
 
 button {
     .btn-primary();
-}
-
-button {
-    .btn-secondary();
 }
 
 section {
@@ -73,10 +69,15 @@ section {
         background-color: @green;
         color: @white;
       }
+
+    article {
+        button {
+           .btn-secondary();
+        }
+    }
 }
 
-section {
-        
+section { 
     .carousel-inner {
         background-color: @yellow;
         color: @black;
@@ -119,7 +120,7 @@ footer {
             font-size: 2.7em;
             }
         h3 {
-            font-size: 1.25em;
+            font-size: 2em;
         }
     }
 

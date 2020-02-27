@@ -4,16 +4,26 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 .btn-primary {
   background-color: #fcd12a;
-  color: #000000;
   font-family: 'Cabin', sans-serif;
   border: none;
   border-radius: 0em;
 }
+.btn-primary a {
+  color: #df2a02;
+}
+.btn-primary a:hover {
+  color: #df2a02;
+}
 .btn-secondary {
   background-color: #df2a02;
-  color: #ffffff;
   font-family: 'Cabin', sans-serif;
   border: none;
+}
+.btn-secondary a {
+  color: #ffffff;
+}
+.btn-secondary a:hover {
+  color: #ffffff;
 }
 h1 {
   color: #ffffff;
@@ -28,7 +38,7 @@ h2 {
 }
 h3 {
   font-family: 'Lobster', cursive;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 h4 {
   font-family: 'Montserrat', sans-serif;
@@ -40,16 +50,15 @@ p {
 }
 button {
   background-color: #fcd12a;
-  color: #000000;
   font-family: 'Cabin', sans-serif;
   border: none;
   border-radius: 0em;
 }
-button {
-  background-color: #df2a02;
-  color: #ffffff;
-  font-family: 'Cabin', sans-serif;
-  border: none;
+button a {
+  color: #df2a02;
+}
+button a:hover {
+  color: #df2a02;
 }
 section {
   /**images on menu page**/
@@ -85,6 +94,17 @@ section form {
   background-color: #528020;
   color: #ffffff;
 }
+section article button {
+  background-color: #df2a02;
+  font-family: 'Cabin', sans-serif;
+  border: none;
+}
+section article button a {
+  color: #ffffff;
+}
+section article button a:hover {
+  color: #ffffff;
+}
 section .carousel-inner {
   background-color: #fcd12a;
   color: #000000;
@@ -117,7 +137,7 @@ footer .d-block img {
     font-size: 2.7em;
   }
   article h3 {
-    font-size: 1.25em;
+    font-size: 2em;
   }
   section .column-middle img {
     max-width: 65%;
