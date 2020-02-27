@@ -8,10 +8,35 @@ h1 {
     text-shadow: 0 0 3px @black;
 }
 
+h2 {
+    font-family: @montserrat;
+    color: @green;
+    font-size: 1.35em;
+}
+
+h3 {
+    font-family: @lobster;
+    font-size: 1em;
+}
+
+h4 {
+    font-family: @montserrat;
+    color: @green;
+    font-size: 1.75em;
+}
+
+p {
+    font-family: @cabin;
+}
+
 button {
     .btn-primary();
 }
 
+button {
+    .btn-secondary();
+    }
+}
 
 section {
     /**images on menu page**/
@@ -41,37 +66,12 @@ section {
     align-items: center;
     }
     /**end of images on menu**/
-    article {
-        h2 {
-            font-family: @montserrat;
-            color: @green;
-            font-size: 1.35em;
-        }
-        h4 {
-            font-family: @montserrat;
-            color: @green;
-            font-size: 1.75em;
-        }  
-        p {
-            font-family: @cabin;
-        }
-    }
-
-    button {
-        .btn-secondary();
-    }
-}
 
 section {
     form {
         background-color: @green;
         color: @white;
-
-        h2 {
-            font-family: @montserrat;
-            font-size: 1.35em;
-        }
-    }
+      }
 }
 
 section {
@@ -102,20 +102,19 @@ footer {
     }
 }
 
-@media (min-width: 540px) {
-    section {
-        article {
-            h2 {
-                font-family: @montserrat;
-                color: @green;
-                font-size: 1.65em;
-                }
-            }    
-        }
+/**media query for wider screens**/
 
-    h1 {
-        font-size: 2.7em;
-        text-shadow: 0 0 3px @black;
+@media (min-width: 540px) {
+    article {
+        h2 {
+            font-size: 1.65em;
+            }
+        h1 {
+            font-size: 2.7em;
+            }
+        h3 {
+            font-size: 1.25em;
+        }
     }
 }
 
