@@ -118,6 +118,16 @@ section .carousel-inner p {
   color: #c21807;
   font-weight: bold;
 }
+.btn-link {
+  color: #c21807;
+}
+.btn-link:hover {
+  font-weight: bold;
+  color: #c21807;
+}
+.btn-link:active {
+  color: #c21807;
+}
 .carousel-section {
   background-color: #fcd12a;
 }
